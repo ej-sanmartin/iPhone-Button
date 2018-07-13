@@ -1,0 +1,80 @@
+html {
+  background: #111111;
+  margin: none;
+  padding: none;
+}
+
+.box {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  border: none;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+}
+
+.button {
+  position: absolute;
+  top: 38.5%;
+  left: 38%;
+  height: 23%;
+  width: 24%;
+  border-radius: 500px;
+  background: #DDDDDD;
+  z-index: 1;
+}
+
+.button-on {
+  position: absolute;
+  top: 38.5%;
+  left: 38%;
+  height: 23%;
+  width: 24%;
+  border-radius: 500px;
+  background: #6EDC5F;
+  z-index: 1;
+}
+
+.button-circle {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  height: 90%;
+  width: 55%;
+  background: #FFFFFF;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  z-index: 2;
+}
+
+.button-circle-on {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  height: 90%;
+  width: 55%;
+  background: #FFFFFF;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 12px 32px -10px rgba(0, 0, 0, 0.52);
+  z-index: 2;
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .box {
+      position: relative;
+      height: 200px;
+      width: 300px;
+      border: none;
+      margin: auto;
+      display: block;
+      margin-top: 8%;
+    }
+}
